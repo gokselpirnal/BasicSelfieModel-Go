@@ -34,7 +34,7 @@ func (this *Selfie) takePhoto(showBoobs bool){
 		this.likeCount = 7
 	} else if this.gender == "male" && this.isFamous {
 		this.likeCount = 300 - this.barzoCount
-	} else if this.gender == "famale" {
+	} else if this.gender == "female" {
 		if !this.isFamous {
 			this.likeCount = 20
 		} else {
