@@ -4,6 +4,6 @@
 ## usage
 
 ```go
-  Pelin := Selfie{NewInstagram("famale"),true}
+  Pelin := Selfie{NewInstagram("female"),true}
   Pelin.takePhoto(true)
 ```
